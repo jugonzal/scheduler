@@ -37,8 +37,8 @@ module.exports = {
   },
   fa: {
     name: "faisal",
-    skills: ["teacher"],
-    idealHours: 14,
+    skills: ['teacher', 'javascript', 'ruby', 'sequelize', 'mvc', 'active_record', 'postgres', 'react', 'machine learning', 'python'],
+    idealHours: 8,
     maxDays: 3,
     schedule: {
       vacations: [{
@@ -50,49 +50,53 @@ module.exports = {
     available: {
       tue: {
         from: " 09:00",
-        to: " 18:00"              
+        to: " 13:00"              
       },
       wed: {
         from: " 09:00",
-        to: " 18:00"              
+        to: " 13:00"              
       },
       thu: {
         from: " 09:00",
-        to: " 18:00"              
+        to: " 13:00"              
       }
     }
   },
   ra: {
-    name: "rafal",
-    skills: ["teacher"],
-    idealHours: 8,
-    maxDays: 1,
-    schedule: {
-      vacations: [{
-        from: "2017-02-13 18:00",
-        to: "2017-02-13 21:00"
-      }],
-      lighthouse: []
-    },
-    available: {
-      mon: {
-        from: " 09:00",
-        to: " 18:00"              
-      },
-      tue: {
-        from: " 09:00",
-        to: " 18:00"              
-      },
-      wed: {
-        from: " 09:00",
-        to: " 18:00"              
-      },
-      thu: {
-        from: " 09:00",
-        to: " 18:00"              
-      }
-    }
-  },
+   name: "rafal",
+   skills: ["teacher", "react", "sql", "ruby", "*"],
+   idealHours: 9,
+   maxDays: 1,
+   schedule: {
+     vacations: [{
+       from: "2017-06-16 00:00",
+       to: "2017-12-31 00:00"
+     }],
+     lighthouse: []
+   },
+   available: {
+     mon: {
+       from: " 09:00",
+       to: " 18:00"              
+     },
+     tue: {
+       from: " 09:00",
+       to: " 18:00"              
+     },
+     wed: {
+       from: " 09:00",
+       to: " 18:00"              
+     },
+     thu: {
+       from: " 09:00",
+       to: " 18:00"              
+     },
+     fri: {
+       from: " 09:00",
+       to: " 18:00"              
+     }
+   }
+ },
   fn: {
     name: "fabio",
     skills: ["teacher"],
@@ -117,18 +121,26 @@ module.exports = {
       thu: {
         from: " 09:00",
         to: " 11:00"              
+      },
+      fri: {
+        from: " 09:00",
+        to: " 11:00"              
       }
     }
   },
   jx: {
     name: "justin",
-    skills: [],
-    idealHours: 16,
+    skills: ["javascript", "jquery", "sql", "php"],
+    idealHours: 20,
     schedule: {
       vacations: [],
       lighthouse: []
     },
     available: {
+      mon: {
+        from: " 11:00",
+        to: " 21:00"              
+      },
       tue: {
         from: " 11:00",
         to: " 21:00"              
@@ -140,12 +152,16 @@ module.exports = {
       thu: {
         from: " 11:00",
         to: " 21:00"              
+      },
+      fri: {
+        from: " 11:00",
+        to: " 21:00"              
       }
     }
   },
   xc: {
-    name: "xijang",
-    skills: [],
+    name: "xiyang",
+    skills: ["react", "angular", "sql", "node", "ruby", "clojure"],
     idealHours: 16,
     schedule: {
       vacations: [],
@@ -157,8 +173,8 @@ module.exports = {
         to: " 18:00"              
       },
       tue: {
-        from: " 11:00",
-        to: " 15:00"              
+        from: " 13:00",
+        to: " 18:00"              
       },
       wed: {
         from: " 11:00",
@@ -180,7 +196,7 @@ module.exports = {
   },
   nr: {
     name: "niloo",
-    skills: [],
+    skills: ["ruby on rails", "javascript", "sql"],
     idealHours: 16,
     maxDays: 2,
     schedule: {
@@ -244,7 +260,7 @@ module.exports = {
   rj: {
     name: "rob",
     skills: ["teacher"],
-    idealHours: 14,
+    idealHours: 16,
     maxDays: 2,
     schedule: {
       vacations: [],
@@ -290,7 +306,7 @@ module.exports = {
   },
   sf: {
     name: "stosh",
-    skills: [],
+    skills: ['node', 'python', 'sql', 'postgres', 'react', 'react-native',],
     idealHours: 8,
     schedule: {
       vacations: [],
@@ -325,9 +341,9 @@ module.exports = {
   },
   sc: {
     name: "scott",
-    skills: [],
-    idealHours: 9,
-    maxDays: 3,
+    skills: ["ruby", "rails", "javascript", "react", "redux", "node", "express"],
+    idealHours: 6,
+    maxDays: 2,
     schedule: {
       vacations: [],
       lighthouse: []
@@ -375,39 +391,39 @@ module.exports = {
     }
   },
   sz: {
-    name: "shu-yan",
-    skills: [],
-    idealHours: 8,
-    schedule: {
-      vacations: [],
-      lighthouse: []
-    },
-    available: {
-      mon: {
-        from: " 11:00",
-        to: " 18:00"              
-      },
-      tue: {
-        from: " 11:00",
-        to: " 18:00"              
-      },
-      wed: {
-        from: " 11:00",
-        to: " 18:00"              
-      },
-      thu: {
-        from: " 11:00",
-        to: " 18:00"              
-      },
-      fri: {
-        from: " 11:00",
-        to: " 18:00"              
-      }
-    }
-  },
+   name: "shu-yan",
+   skills: ["react", "javascript"],
+   idealHours: 8,
+   schedule: {
+     vacations: [],
+     lighthouse: []
+   },
+   available: {
+     mon: {
+       from: " 13:00",
+       to: " 21:00"              
+     },
+     tue: {
+       from: " 13:00",
+       to: " 21:00"              
+     },
+     wed: {
+       from: " 13:00",
+       to: " 21:00"              
+     },
+     thu: {
+       from: " 13:00",
+       to: " 21:00"              
+     },
+     fri: {
+       from: " 13:00",
+       to: " 21:00"            
+     }
+   }
+ },
   jh: {
     name: "johnny",
-    skills: [],
+    skills: ["react", "node", "javascript", "ruby", "rails", "sql"],
     idealHours: 8,
     schedule: {
       vacations: [],
@@ -429,41 +445,45 @@ module.exports = {
       fri: {
         from: " 18:00",
         to: " 21:00"              
+      },
+      sat: {
+        from: " 11:00",
+        to: "17:00"              
       }
     }
   },
   zl: {
-    name: "zach",
-    skills: [],
-    idealHours: 16,
-    maxDays: 2,
-    schedule: {
-      vacations: [],
-      lighthouse: []
-    },
-    available: {
-      mon: {
-        from: " 11:00",
-        to: " 18:00"              
-      },
-      tue: {
-        from: " 11:00",
-        to: " 18:00"              
-      },
-      wed: {
-        from: " 11:00",
-        to: " 18:00"              
-      },
-      thu: {
-        from: " 11:00",
-        to: " 18:00"              
-      },
-      fri: {
-        from: " 11:00",
-        to: " 18:00"              
-      }
-    }
+  name: "zach",
+  skills: ["ruby", "rails", "javascript", "react", "hardware", "python"],
+  idealHours: 16,
+  maxDays: 2,
+  schedule: {
+    vacations: [],
+    lighthouse: []
   },
+  available: {
+    mon: {
+      from: " 11:00",
+      to: " 18:00"              
+    },
+    tue: {
+      from: " 11:00",
+      to: " 18:00"              
+    },
+    wed: {
+      from: " 11:00",
+      to: " 18:00"              
+    },
+    thu: {
+      from: " 11:00",
+      to: " 18:00"              
+    },
+    fri: {
+      from: " 11:00",
+      to: " 18:00"              
+    }
+  }
+},
   rb: {
     name: "richard",
     skills: [],
@@ -494,7 +514,7 @@ module.exports = {
   },
   bh: {
     name: "ben",
-    skills: [],
+    skills: ["react", "sql", "rails"],
     idealHours: 6,
     schedule: {
       vacations: [],
@@ -571,8 +591,8 @@ module.exports = {
     }
   },
   jf: {
-    name: "jonathan",
-    skills: [],
+    name: "Jonathan",
+    skills: ["js","ruby","sql","jquery","react","node","oop","css"],
     idealHours: 4,
     maxDays: 1,
     schedule: {
@@ -582,13 +602,13 @@ module.exports = {
     available: {
       wed: {
         from: " 16:00",
-        to: " 20:00"              
+        to: " 21:00"              
       }
     }
   },
   la: {
     name: "laith",
-    skills: [],
+    skills: ['ruby', 'ruby on rails', 'javascript', 'reactjs', 'redux'],
     idealHours: 6,
     maxDays: 2,
     schedule: {
@@ -600,7 +620,7 @@ module.exports = {
         from: " 18:00",
         to: " 21:00"              
       },
-      tue: {
+      wed: {
         from: " 18:00",
         to: " 21:00"              
       },
@@ -614,7 +634,7 @@ module.exports = {
     name: "david",
     skills: [],
     idealHours: 8,
-    maxDays: 1,
+    maxDays: 2,
     schedule: {
       vacations: [],
       lighthouse: []
@@ -671,9 +691,9 @@ module.exports = {
   },
   nj: {
     name: "nayyir",
-    skills: [],
-    idealHours: 12,
-    maxDays: 3,
+    idealHours: 15,
+    maxDays: 5,
+    skills: ['ruby', 'rails', 'psql', 'javascript', 'jquery', 'MVC'],
     schedule: {
       vacations: [],
       lighthouse: []
@@ -701,34 +721,26 @@ module.exports = {
       }
     }
   },
-  cb: {
+cb: {
     name: "cody",
-    skills: [],
-    idealHours: 8,
+    skills: ['SQL', 'Ruby', 'Rails'],
+    idealHours: 4,
     schedule: {
       vacations: [],
       lighthouse: []
     },
     available: {
-      mon: {
-        from: " 11:00",
-        to: " 21:00"              
-      },
       tue: {
-        from: " 11:00",
-        to: " 21:00"              
-      },
-      wed: {
-        from: " 11:00",
-        to: " 21:00"              
+        from: "17:00",
+        to: "21:00"              
       },
       thu: {
-        from: " 11:00",
-        to: " 21:00"              
+        from: "17:00",
+        to: "18:00"              
       },
       fri: {
-        from: " 11:00",
-        to: " 21:00"              
+        from: "17:00",
+        to: "21:00"              
       }
     }
   }
